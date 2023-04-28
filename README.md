@@ -134,7 +134,7 @@ The previous command will launch the robot in a google map by using the informat
 But if there is no internet access; and need to test the localization, we can use the octomap to show the map for the real robot by using this commands:
 
 ```
-rosrun pomona_localization laserscan_to_point_cloud_node.py
+rosrun pomona_localization laserscan_to_point_cloud.py
 ```
 ```
 roslaunch pomona_localization octomap_nav.launch
